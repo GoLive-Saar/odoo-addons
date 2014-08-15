@@ -112,6 +112,21 @@
     </xpath>
 </template>
 
+<!-- Terms popover bind as iframe --> 
+<template id="wsga_popover_terms" name="German terms popover">
+    <link id="bootstrap_css" rel='stylesheet' href='/web/static/lib/bootstrap/css/bootstrap.css' t-ignore="true"/>
+    <link rel="stylesheet" href='/website/static/src/css/website.css' t-ignore="true"/>
+    <t t-set="view" t-value="html_view"/>
+    <div t-raw="view"/>
+</template>
+
+<!-- Revocation popover bind as iframe --> 
+<template id="wsga_popover_revocation" name="German terms revocation">
+    <link id="bootstrap_css" rel='stylesheet' href='/web/static/lib/bootstrap/css/bootstrap.css' t-ignore="true"/>
+    <link rel="stylesheet" href='/website/static/src/css/website.css' t-ignore="true"/>
+    <t t-set="view" t-value="html_view"/>
+    <div t-raw="view"/>
+</template>
 
     </data>
 </openerp>
