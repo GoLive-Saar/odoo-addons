@@ -73,7 +73,7 @@
                   <h4 id="rev">Please accept our terms and revocation!</h4>
                   <div id="revlabel" class="form-group">
                       <input id="revbox" value="rev" type="checkbox" name="rev" />
-                      <label class="control-label" for="rev">I have read the terms and the revocation and accept them.</label>
+                      <label class="control-label" for="rev">I have read the <span id="open-terms" class="wsga-cursor">terms</span> and the <span id="open-revo" class="wsga-cursor">revocation</span> and accept them.</label>
                   </div>
               </div>
               
@@ -163,6 +163,23 @@
           
         </div>
       </div>
+
+      <div id="wsga-terms" class="wsga-popover wsga-center" style="display:none;">
+            <h3 class="popover-title">
+                Terms
+                <button id="close-terms" title="close" type="button" class="close">×</button>
+            </h3>
+            <iframe src="../../popover/terms/"/>
+        </div>
+        
+
+      <div id="wsga-revo" class="wsga-popover wsga-center" style="display:none;">
+            <h3 class="popover-title">
+                Revocation
+                <button id="close-revo" title="close" type="button" class="close">×</button>
+            </h3>
+            <iframe src="../../popover/revocation/"/>       
+      </div>
       
       <script type="text/javascript" src="/website_sale_german_additions/static/src/js/website_sale_german_additions.js"></script>
     
@@ -192,7 +209,6 @@
       </b>
   </xpath>
 </template>
-
 
     </data>
 </openerp>
