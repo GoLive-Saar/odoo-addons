@@ -1,8 +1,5 @@
-import openerp
-from openerp.addons.web import http
-from openerp.http import request, Response
-
-from pprint import pprint
+from openerp import http
+from openerp.http import request
 
 class website_sale_german_additions(http.Controller):
     @http.route(['/page/terms', '/page/website.terms'], type='http', auth='public', website=True)
