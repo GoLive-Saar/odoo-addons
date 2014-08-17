@@ -18,12 +18,12 @@ Overview
  - adds imprint page
  - adds an easy built-in address snippet to content blocks
  - adds "incl. VAT, plus shipping costs" to every price
+ - adds terms and revocation popup on payment site; both are taken from terms and revocation page on the frontend
  
 Todo
 ----
  - add VAT-percentage to every "incl. VAT"
  - translate all into german
- - make backend features to manage manage revocation and terms from backend
  - create a email template which inherits all statutory required informations
  - ...
 
