@@ -21,39 +21,33 @@
 #
 ##############################################################################
 {
-    'name': 'Deutschland - Accounting IKR',
+    'name': 'Deutschland - better accounting for 7.0',
     'version': '1.0',
-    'author': 'copado MEDIA',
-	'website': 'http://www.copado.de',
+    'author': 'copado.de',
+    'website': 'http://www.copado.de',
     'category': 'Localization/Account Charts',
     'description': """
-Dieses Modul beinhaltet den deutschen Kontenrahmen IKR (Industriekontenrahmen) angelehnt an den Schulkontenrahmen der IHK.
-==========================================================================================================================
-	* Letzte Überarbeitung IKR: 08/2014
+Aktuallisierte Version des SKR03 und SKR04 aus der l10n_de.
+===========================================================
 
-
-English:
-German accounting chart and localization (Industry Chart Temlate (IKR)) relating to the school-chart-template of the IHK (Industry and Trade Chamber).
-	* Last change IKR: 08/2014
-
+Actualized german accounting charts SKR03 and SKR04.
     """,
-    'depends': [
-		'base',
-		'account',
-		'base_iban',
-		'base_vat',
-		'account_chart'
-	],
-    'demo': [],
+    'depends': ['base', 'account', 'base_iban', 'base_vat', 'account_chart'],
+    'demo': [ ],
     'data': [
-        'account_tax_ikr.xml',
-        'account_chart_schema_ikr.xml',
-        'account_chart_ikr.xml', 					
-        'account_chart_template_ikr.xml',			
-        'account_tax_fiscal_position_ikr.xml',		
-        'chart_ikr_wizard.xml',
+        'account_tax_skr03.xml',
+        'account_types_skr03.xml',
+        'account_chart_skr03.xml',
+        'account_chart_template_skr03.xml',
+        'account_tax_fiscal_position_skr03.xml',
+        'account_tax_skr04.xml',
+        'account_types_skr04.xml',
+        'account_chart_skr04.xml',
+        'account_chart_template_skr04.xml',
+        'account_tax_fiscal_position_skr04.xml',
+        'skr_de_wizard.xml',
     ],
     'installable': True,
-    'images': ['images/config_chart_l10n_de.jpeg','images/l10n_de_chart.jpeg'],
+    'images': [],
 }
 
