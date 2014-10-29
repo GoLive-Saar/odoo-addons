@@ -45,9 +45,7 @@ Overview
 Todo
 ----
  - add VAT-percentage to every "incl. VAT"
- - translate all into german
  - create a email template which inherits all statutory required informations
- - ...
 
 Contact for questions
 ---------------------
